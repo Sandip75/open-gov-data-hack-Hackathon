@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_dark"
+    tools:context="com.example.pc.hack2.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search by:"
+        android:textColor="#660000"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+    android:id="@+id/butlo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Location" />
+
+    <Button
+        android:id="@+id/butco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course "/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/a"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0"
+        app:srcCompat="@drawable/aa" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pc.hack2.premain"
+    android:background="#FFFF33">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/ivf"
+        android:src="@drawable/a2"
+        android:background="#FFFF33"
+        tools:layout_editor_absoluteY="77dp"
+        tools:layout_editor_absoluteX="40dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Informatics"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E5FFCC"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pc.hack2.Main2Activity"
+    tools:showIn="@layout/activity_main2">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <Spinner
+        android:id="@+id/f1"
+        android:layout_marginLeft="150dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="filer"/>
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#FFFFCC">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Names "
+        android:textColor="#660000"
+        android:textSize="20sp"
+        android:textAlignment="textStart"/>
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#660000"
+        android:textSize="20sp"
+        android:text="Location "
+        android:textAlignment="textEnd"/>
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#66FFFF">
+
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="0sp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:background="#66FFFF"
+        android:onClick="fun11"
+        android:text="BPIT"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/n"
+        android:onClick="fun1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#FFFFCC">
+
+    <Button
+        android:id="@+id/b21"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:background="#FFFFCC"
+        android:layout_height="wrap_content"
+        android:onClick="fun21"
+        android:text="IIT"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/n"
+        android:onClick="fun2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#66FFFF">
+
+    <Button
+        android:id="@+id/b31"
+        android:layout_width="0sp"
+        android:layout_weight="5"
+        android:background="#66FFFF"
+        android:layout_height="wrap_content"
+        android:onClick="fun31"
+        android:text="NSIT"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/n"
+        android:onClick="fun3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#FFFFCC">
+
+    <Button
+        android:id="@+id/b41"
+        android:layout_width="0sp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:background="#FFFFCC"
+        android:onClick="fun41"
+        android:text="IIC"/>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/n"
+        android:onClick="fun4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#66FFFF">
+
+    <Button
+        android:id="@+id/b51"
+        android:layout_width="0sp"
+        android:layout_weight="5"
+        android:background="#66FFFF"
+        android:layout_height="wrap_content"
+        android:onClick="fun51"
+        android:text="JNU"/>
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/n"
+        android:onClick="fun5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#FFFFCC">
+
+    <Button
+        android:id="@+id/b61"
+        android:layout_width="0sp"
+        android:layout_weight="5"
+        android:background="#FFFFCC"
+        android:layout_height="wrap_content"
+        android:onClick="fun61"
+        android:text="SVC"/>
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/n"
+        android:onClick="fun6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+  </LinearLayout>
+
+</LinearLayout>

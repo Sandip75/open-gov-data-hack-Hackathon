@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">College Informatics</string>
+    <string name="dialog_title">Select</string>
+    <string name="ok_label">Ok</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+
+    <string-array name="loc">
+        <item>Delhi</item>
+        <item>gurgoan</item>
+        <item>Nodia</item>
+        <item>Chennai</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+        <item>Bangalore</item>
+        <item>Hyderabad</item>
+        <item>Belgaum</item>
+    </string-array>
+
+    <string-array name="cou">
+        <item>Btech</item>
+        <item>MBA</item>
+        <item>BBA</item>
+        <item>Humanities</item>
+        <item>LLB</item>
+        <item>MBBS</item>
+        <item>Commerce</item>
+        <item>BSc</item>
+        <item>MSc</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
+
